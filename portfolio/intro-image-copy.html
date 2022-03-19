@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 共通化パーツhead -->
+
+<head id="head"></head>
+
+<body class="temp-uppercase temp-grayscale animsition">
+    <!-- 共通化パーツheader -->
+    <header id="header"></header>
+    <div id="body-content">
+        <section id="intro-section" class="image-intro full-height-vh bg-image" style="background-image: url(assets/img/misc/IMG_0111.jpeg); background-position: 50% 50%;">
+            <div class="cover bg-transparent-2-dark"></div>
+            <div class="intro-caption center">
+                <h1 class="intro-title font-alter-2">ish tic</h1>
+                <h2 class="intro-subtitle font-alter-2">Creative Photo & video Studio</h2>
+
+                <p class="intro-description hide-from-sm">WELCOME</p>
+
+                <div class="margin-top-30">
+                    <a href="gallery-list-striped-categories.html" class="btn btn-primary margin-top-5">View My Work</a>
+                    <a href="contact.html" class="btn btn-white-bordered margin-top-5">Contact Me</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    //共通パーツ読み込み
+    $(function() {
+        $("#header").load("body-header.html");
+        $("#head").load("head.html");
+    });
+</script>
+
+
+</html>
