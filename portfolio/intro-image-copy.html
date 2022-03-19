@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head id="head">
-    <!-- 共通化パーツhead -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        //共通パーツ読み込み
-        $(function() {
-            $("#header").load("body-header.html");
-            $("#head").load("head.html");
-        });
-    </script>
-</head>
+<head id="head"></head>
 
 <body class="temp-uppercase temp-grayscale animsition">
     <!-- 共通化パーツheader -->
@@ -33,5 +23,14 @@
         </section>
     </div>
 </body>
+<!-- 共通化パーツhead -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    //共通パーツ読み込み
+    $(function() {
+        $("#header").load("body-header.html");
+        $("#head").load("head.html");
+    });
+</script>
 
 </html>
